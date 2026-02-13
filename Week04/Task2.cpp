@@ -1,8 +1,6 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
-
 class Shape
 {
 public:
@@ -51,32 +49,29 @@ public:
 
 int main()
 {
-    Rectangle rectangle(5, 3);
+    Rectangle rectangle(5.0, 3.0);
+    Circle circle(4.0);
 
-    // Create a pointer to "Rectangle". 
-    Rectangle *rectPtr = &rectangle;
+    // Static cast
+    Shape *shape = &rectangle;
+    Rectangle *rectPtr = static_cast<Rectangle *>(shape);
 
-    // Declare a "shapePtr" and initialize it by statically upcasting "rectPtr".
-    Shape *shapePtr = static_cast<Shape *>(rectPtr);
-
-
-    // Dynamically check if "shapePtr" can be downcasted to a Circle*
-    if( 
-    dynamic_cast<Circle *>(shapePtr) != nullptr
-    ) {
-        cout << "shapePtr points to a Circle\n";
-    } else {
-        cout << "shapePtr does not point to a Circle\n";
+    // Dynamic cast
+    if (dynamic_cast<Circle *>(shape) != nullptr)
+    {
+        std::cout << "Shape is a Circle." << std::endl;
+    }
+    else
+    {
+        std::cout << "Shape is not a Circle." << std::endl;
     }
 
-    // Remove the const qualifier from the "const Rectangle" pointed to by rectPtr.
-    const Circle circle(10);
-    const Circle *ptr = &circle;
-    rectPtr = const_cast<Rectangle *>(rectPtr);
+    // Const cast
+    double area = const_cast<Rectangle *>(rectPtr)->area();
 
-    int x = 97;
-    int* p = &x;
-    // Declare a "char c" and initialize it with the value 'a' by performing a reinterpret cast on "p"
-    char c = *reinterpret_cast<char *>(p);
+    // Reinterpret cast
+    int intValue = 42;
+    double doubleValue = reinterpret_cast<double &>(intValue);
 
+    return 0;
 }

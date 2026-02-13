@@ -10,5 +10,7 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 
 - Week 3: Inheritance and Polymorphism
 
+- Week 4: Deleted/Defaulted functions, Static and Dynamic Casting.
+
   
 

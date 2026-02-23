@@ -12,5 +12,7 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 
 - Week 4: Deleted/Defaulted functions, Static and Dynamic Casting.
 
+- Week 5: Templates and Smart Pointers
+
   
 

@@ -14,5 +14,7 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 
 - Week 5: Templates and Smart Pointers
 
+- Week 6: Templates (cont.) and Lambda Expressions
+
   
 

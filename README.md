@@ -16,5 +16,7 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 
 - Week 6: Templates (cont.) and Lambda Expressions
 
+- Week 7: C++ STL and Iterators
+
   
 

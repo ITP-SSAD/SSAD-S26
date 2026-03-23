@@ -18,5 +18,8 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 
 - Week 7: C++ STL and Iterators
 
-  
+
+## Labs on Design Patterns
+
+- Week 9: Singleton, State, Prototype, and Builder
 

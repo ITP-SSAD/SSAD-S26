@@ -22,4 +22,4 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 ## Labs on Design Patterns
 
 - Week 9: Singleton, State, Prototype, and Builder
-
+- Week 10: Strategy, Adapter, and Composite

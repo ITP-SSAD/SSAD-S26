@@ -24,3 +24,4 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 - Week 9: Singleton, State, Prototype, and Builder
 - Week 10: Strategy, Adapter, and Composite
 - Week 11: Facade, Decorator, and Proxy
+- Week 12: Bridge, Flyweight, and Factory

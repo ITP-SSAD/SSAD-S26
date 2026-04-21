@@ -30,3 +30,5 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 - Week 12: Bridge, Flyweight, and Factory
 
 - Week 13: Interpreter, Iterator, and Visitor
+
+- Week 14: Command, Chain of Responsibility, and Observer.

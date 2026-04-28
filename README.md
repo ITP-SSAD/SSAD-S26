@@ -32,3 +32,5 @@ Lab tasks and solutions for "Software System Analysis and Design - Spring 2026"
 - Week 13: Interpreter, Iterator, and Visitor
 
 - Week 14: Command, Chain of Responsibility, and Observer.
+
+- Week 15: Template Method, Mediator, Memento, and Abstract Factory.
